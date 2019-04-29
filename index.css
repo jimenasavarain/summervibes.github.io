@@ -1,0 +1,161 @@
+body {
+    font-family: 'Lobster', cursive;
+}
+
+h1 {
+    text-align: center;
+    font-size: 6em;
+    color: white;
+    z-index: 10;
+}
+
+#greeting {
+    top: -50px;
+    position: absolute;
+    left: 35%;
+}
+
+#sky {
+    z-index: -3;
+    position: absolute;
+
+    width: 1800px;
+    top: 0;
+    left: 0;
+}
+
+#ocean {
+    left: -32px;
+    bottom: 60px;
+    width: 1860px;
+    position: absolute;
+    z-index: 5;
+}
+
+#sand {
+    width: 1796px;
+    position: absolute;
+    bottom: -10px;
+}
+
+#tree {
+    height: 800px;
+    bottom: 10px;
+    right: 0px;
+    z-index: 6;
+    position: absolute;
+}
+
+#display {
+    top: -100px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    width: 1800px;
+    height: 800px;
+}
+
+#concha {
+    height: 40px;
+    position: absolute;
+    bottom: 40px;
+    z-index: 4;
+    left: 20px;
+}
+
+#bikini {
+    height: 160px;
+    position: absolute;
+    bottom: 0;
+    z-index: 6;
+    left: 360px;
+}
+
+#towel {
+    position: absolute;
+    width: 200px;
+    left: 170px;
+    z-index: 5;
+    bottom:0px;
+}
+
+#bird {
+    height: 90px;
+    position: absolute;
+    right: 130px;
+    top: 160px;
+    z-index: 7;
+}
+
+#music {
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 10px; 
+}
+
+#mute {
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: none;
+}
+
+#water {
+    background-color: #A7D2D8;
+    width: 1795px;
+    position: absolute;
+    z-index: 3;
+    height: 200px;
+    bottom: 150px;
+}
+
+#octopus {
+    position: absolute;
+    height: 150px;
+    bottom: 310px;
+    left: 400px;
+    z-index: 2;
+}
+
+#beer {
+    position: absolute;
+    height: 70px;
+    z-index: 7;
+    bottom: 15px;
+    left: 28%;
+}
+
+#starfish {
+    height: 30px;
+    position: absolute;
+    bottom: 20px;
+    z-index: 8;
+    left: 50%;
+}
+
+#lighthouse {
+    height: 200px;
+    position: absolute;
+    bottom: 340px;
+    right: 20px;
+}
+
+#coral {
+    height: 40px;
+    bottom: 10px;
+    position: absolute;
+    right: 20%;
+    z-index: 7;
+}
+
+#sandals {
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+    left: 600px;
+}

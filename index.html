@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Web Development 2 ~ Final Project</title>
+        <script src="jquery-3.3.1.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Lobster|Poiret+One');
+    </style>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <div id="display">
+            <img src="SVG/sky.svg" id="sky">
+          
+            
+        <div id="greeting">
+        <h1>Summer Vibes</h1>      
+        </div>
+            
+            <div id="water"></div>
+        <img src="SVG/octopus.svg" id="octopus">
+        <img src="SVG/beer.svg" id="beer">
+        <img src="SVG/coral.svg" id="coral">
+        <img src="SVG/starfish.svg" id="starfish">
+        <img src="SVG/Lighthouse.svg" id="lighthouse">
+        <img src="SVG/sandals.svg" id="sandals">
+            
+        <img src="SVG/bikini.svg" id="bikini">
+        <img src="SVG/towel.svg" id="towel">
+        <img src="SVG/English%20Bay.svg" id="tree">
+        <img src="SVG/concha.svg" id="concha">
+        <img src="SVG/bird.svg" id="bird">
+        <img src="SVG/water.svg" id="ocean">
+        <img src="SVG/sand.svg" id="sand">
+        <img src="SVG/music.svg" id="music">
+        <img src="SVG/mute.svg" id="mute">
+        <div id="wrap">&nbsp;</div>
+        </div>
+    <script>
+        $(document).ready(function(){
+    $("p").click(function(){
+        $(this).hide();
+    });
+});
+            
+        $(document).ready( function() {
+$('#music').click(function(){
+    $(this).hide();
+    $('#mute').show();
+   $('#wrap').append('<embed id="embed_player" src="Audio/music.mp3" autostart="true" hidden="true"></embed>');
+});
+});
+        
+    </script>
+    </body>
+
+</html>
